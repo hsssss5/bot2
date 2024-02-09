@@ -51,7 +51,7 @@ client = discord.Client(intents=intents)
 
 def play_ahaha():
     source = discord.FFmpegOpusAudio(
-        source="ahaha.mp3", executable="F:/bot/anal/bin/ffmpeg.exe"
+        source="ahaha.mp3", executable="F:/bot/ffmpegLib/bin/ffmpeg.exe"
     )
     vClient.play(source)
     if vClient.is_connected():
