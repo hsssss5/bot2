@@ -1,2 +1,5 @@
 botToken.py
 *.pyc
+.venv/
+.idea/
+ffmpegLib/
